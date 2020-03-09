@@ -1,0 +1,8 @@
+body{
+    max-width:961px;
+    height:100vh;
+    margin: auto;
+    background-color:var(--color-dark);
+    object-fit: cover;
+    object-position: initial;
+}
