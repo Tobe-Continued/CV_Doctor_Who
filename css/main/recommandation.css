@@ -1,0 +1,6 @@
+section#recommandation.container{
+    max-width: 961px;
+    background-color:var(--color-light);
+    height:300px;
+    display: flex;
+}
