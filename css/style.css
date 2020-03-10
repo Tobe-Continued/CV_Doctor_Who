@@ -1,15 +1,15 @@
-@import url(/css/header.css);
-@import url(/css/navbar.css);
+@import url("header.css");
+@import url("navbar.css");
 
-@import url(/css/main/style.css);
-@import url(/css/main/prestentation.css);
-@import url(/css/main/journey.css);
-@import url(/css/main/skills.css);
-@import url(/css/main/hobbies.css);
-@import url(/css/main/contact.css);
-@import url(/css/main/recommandation.css);
+@import url("main/style.css");
+@import url("main/prestentation.css");
+@import url("main/journey.css");
+@import url("main/skills.css");
+@import url("main/hobbies.css");
+@import url("main/contact.css");
+@import url("main/recommandation.css");
 
-@import url(/css/footer.css);
+@import url("footer.css");
 
 :root {
 
@@ -26,6 +26,3 @@
     --font-text:'Raleway', sans-serif;
 
 }
-
-
-
