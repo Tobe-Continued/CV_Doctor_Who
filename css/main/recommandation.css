@@ -32,12 +32,19 @@ h2{
 .review_title{
     display: flex;
     position:absolute;
+    font-family:var(--font-title);
+    width:200px;
+    text-align:center;
+    top:0px;
+    left:85px;
+    z-index: 2;
 
 }
 .review_star{
     display: flex;
     position: absolute;
     text-shadow: 1px 1px 2px var(--color-dark);
+    color: var(--color-light);
     top:9px;
     right:20px;
     z-index: 2;
@@ -46,11 +53,25 @@ h2{
     color: orange;
 }
 .review_text{
-    display: inline-flex;
-    min-width: calc(100vh / 5);
+    display: flex;
+    max-width: calc(100vh / 3);
+    font-family:var(--font-text);
+    min-width: calc(100vh / 3);
     background-color: var(--color-light);
     border-radius: 25px 25px 25px 25px;
     padding:30px 20px 20px 50px;
     z-index: 1;
+
+}
+.review_date{
+    display: flex;
+    position:absolute;
+    font-family:var(--font-text) bold;
+    font-size: 10pt;
+    width:200px;
+    text-align:center;
+    bottom:5px;
+    right:-120px;
+    z-index: 2;
 
 }
