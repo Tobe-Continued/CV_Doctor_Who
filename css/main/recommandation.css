@@ -2,51 +2,55 @@ h2{
     font-family:var(--font-title);
     color: var(--color-light);
 }
-.review{
-    display:block;
+.customer_review{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+
+}
+.carte_review{
+    display: flex;
     position: relative;
-    z-index: 2;
 }
 .review img{
+    display: flex;
     position: absolute;
-    top:-15px;
-    left:-15px;
-    width:64px;
-    height:64px;
+    top:-10px;
+    left: -15px;
+    z-index: 2;
+    border:2px solid var(--color-light);
     object-fit: cover;
     object-position: top;
-    border-radius:  100%;
-    border:2px solid var(--color-light);
-    z-index: 2;
+    border-radius: 100%;
+    width:65px;
+    height:65px;
 
 }
 .review_title{
     display: flex;
-    font-family: var(--font-title);
-    position: absolute;
-    text-align: center;
-    top:10px;
-    left:90px;
-    z-index: 3;
+    position:absolute;
+
 }
 .review_star{
+    display: flex;
     position: absolute;
-    top:-10px;
-    right:0;
-    padding: 0 15px 0 15px;
-    border-radius: 30px 30px 0 0;
     text-shadow: 1px 1px 2px var(--color-dark);
+    top:9px;
+    right:20px;
     z-index: 2;
 }
 .checked {
     color: orange;
 }
 .review_text{
-    width:100%;
-    border-radius: 50px 15px 15px 15px;
-    text-align: center;
+    display: inline-flex;
+    min-width: calc(100vh / 5);
     background-color: var(--color-light);
-    padding:50px 5px 15px 5px;
-    margin-top:15px;
+    border-radius: 25px 25px 25px 25px;
+    padding:30px 20px 20px 50px;
     z-index: 1;
+
 }
