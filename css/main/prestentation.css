@@ -1,0 +1,11 @@
+.presentation {
+    display:flex;
+    flex-direction: column;
+    background-color: var(--color-blue-dark);
+}
+
+.presentation img {
+    height: 20em;
+    width: 25em;
+}
+
