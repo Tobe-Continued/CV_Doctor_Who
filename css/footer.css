@@ -79,7 +79,17 @@ font-size: 12px;
     align-items: baseline;
 }
 
+}
 
+.alinea {
+    width: 100%;
+    display: flex;
+    position: relative;
+    border:2px solid var(--color-light);
+    border-radius:  var(--radius);
+    width: 200px;
+    height: 250px;
+  }
 
 /* Links Decoration */
 
@@ -129,6 +139,5 @@ font-size: 12px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
 
 }
