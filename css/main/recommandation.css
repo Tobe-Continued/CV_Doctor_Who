@@ -1,7 +1,3 @@
-h2{
-    font-family:var(--font-title);
-    color: var(--color-light);
-}
 .customer_review{
     display: flex;
     flex-direction: row;
