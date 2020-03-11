@@ -1,10 +1,3 @@
-:root {
-    --input-full-width: ;
-    --input-demi-width: ;
-    --formOut-height: ;
-    --formIn-height: ;
-}
-
 
 #contact {
     position: relative;
@@ -19,7 +12,7 @@
 
 .galaxy {
     position: absolute;
-    width: 961px;
+    width: 100%;
     height: 715px;
 }
 
@@ -42,7 +35,7 @@
     position: relative;
     width: 90%;
     height: 70px;
-    border: 2.5px solid rgba(218, 226, 247, 0.6);
+    border: 2px solid rgba(218, 226, 247, 0.6);
     border-radius: 10px;
 }
 
@@ -162,7 +155,7 @@ input, textarea {
 
     #day, #hour {
         width: 100%;
-        padding-right: 0px;
+        padding-right: 0;
     }
 
     #message {
