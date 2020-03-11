@@ -10,6 +10,14 @@
 @import url("main/recommandation.css");
 
 @import url("footer.css");
+@font-face {
+font-family: "DoctorWho";
+src: url("css/font/Doctor-Who-Regular.ttf.eot"),
+src: url("css/font/Doctor-Who-Regular.ttf.eot?#iefix") format('embedded-opentype'),
+src: url("css/font/Doctor-Who-Regular.ttf.woff") format("woff"),
+url("css/font/Doctor-Who-Regular.ttf.otf") format("opentype"),
+url("css/font/Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular") format("svg");
+}
 
 :root {
 
@@ -24,7 +32,7 @@
 
     --color-orange:#E1AB49;
 
-    --font-title:'Oswald', sans-serif;
+    --font-title:'DoctorWho', Arial, sans-serif;
     --font-text:'Raleway', sans-serif;
 
     --radius: 8px;
