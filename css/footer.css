@@ -8,7 +8,8 @@ footer {
     border: 1px solid #E1AB49;
     border-top: none;
     font-size: 10px;
-    border-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
 }
 
 footer h5 {
