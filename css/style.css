@@ -10,16 +10,30 @@
 @import url("main/recommandation.css");
 
 @import url("footer.css");
-
+@font-face {
+    font-family: 'Doctor-Who-Regular';
+    src:  url('font/doctor-who-webfont.woff') format('woff'),
+    url('font/Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular') format('svg'),
+    url('font/Doctor-Who-Regular.ttf.eot'),
+    url('font/Doctor-Who-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
 
     --color-light:#DAE2F7;
     --color-dark:#04070D;
+
     --color-main:#304A95;
     --color-blue-light:#627ED2;
+    --color-blue-light_opacity: rgba(98, 126, 210, 0.5);
     --color-blue-dark:#2A304A;
+    --color-blue-darker: #15152a;
+
     --color-orange:#E1AB49;
-    --font-title:'Oswald', sans-serif;
+
+    --font-title_h1:'Doctor-Who-Regular', sans-serif;
     --font-text:'Raleway', sans-serif;
 
+    --radius: 8px;
 }
