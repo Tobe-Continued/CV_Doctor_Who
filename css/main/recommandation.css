@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: stretch;
-    align-items: center;
+    align-items: baseline;
 
 }
 .carte_review{
@@ -14,25 +14,26 @@
 .review img{
     display: flex;
     position: absolute;
-    top:-10px;
-    left: -15px;
+    top:18px;
+    left: 0;
     z-index: 2;
     border:2px solid var(--color-light);
     object-fit: cover;
     object-position: top;
-    border-radius: 100%;
+    border-radius: var(--radius);
     width:65px;
-    height:65px;
+    height:70%;
 
 }
 .review_title{
     display: flex;
     position:absolute;
     font-family:var(--font-title);
+    color: var(--color-main);
     width:200px;
-    text-align:center;
+    text-align:left;
     top:0;
-    left:85px;
+    left:75px;
     z-index: 2;
 
 }
@@ -41,8 +42,8 @@
     position: absolute;
     text-shadow: 1px 1px 2px var(--color-dark);
     color: var(--color-light);
-    top:9px;
-    right:20px;
+    top:20px;
+    right:10px;
     z-index: 2;
 }
 .checked {
@@ -51,18 +52,22 @@
 .review_text{
     display: flex;
     max-width: calc(100vh / 3);
-    font-family:var(--font-text);
+    font-family:var(--font-title);
+    color: var(--color-main);
     min-width: calc(100vh / 3);
+    height:50px;
     background-color: var(--color-light);
     border-radius: var(--radius) var(--radius) var(--radius) var(--radius);
-    padding:30px 20px 20px 50px;
+    padding:30px 10px 30px 75px;
     z-index: 1;
 
 }
 .review_date{
     display: flex;
     position:absolute;
-    font-family:var(--font-text) bold;
+    font-family:var(--font-text);
+    font-weight: bold;
+    color: var(--color-main);
     font-size: 10pt;
     width:200px;
     text-align:center;
