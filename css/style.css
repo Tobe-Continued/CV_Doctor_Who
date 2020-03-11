@@ -11,14 +11,14 @@
 
 @import url("footer.css");
 @font-face {
-font-family: "DoctorWho";
-src: url("css/font/Doctor-Who-Regular.ttf.eot"),
-src: url("css/font/Doctor-Who-Regular.ttf.eot?#iefix") format('embedded-opentype'),
-src: url("css/font/Doctor-Who-Regular.ttf.woff") format("woff"),
-url("css/font/Doctor-Who-Regular.ttf.otf") format("opentype"),
-url("css/font/Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular") format("svg");
+    font-family: 'Doctor-Who-Regular';
+    src:  url('font/doctor-who-webfont.woff') format('woff'),
+    url('font/Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular') format('svg'),
+    url('font/Doctor-Who-Regular.ttf.eot'),
+    url('font/Doctor-Who-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
-
 :root {
 
     --color-light:#DAE2F7;
@@ -32,7 +32,7 @@ url("css/font/Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular") format("svg");
 
     --color-orange:#E1AB49;
 
-    --font-title:'DoctorWho', Arial, sans-serif;
+    --font-title_h1:'Doctor-Who-Regular', sans-serif;
     --font-text:'Raleway', sans-serif;
 
     --radius: 8px;
