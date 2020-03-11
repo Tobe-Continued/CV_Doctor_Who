@@ -2,12 +2,10 @@
 
 .presentation {
   display:flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content:center;
   color:var(--color-light);
   padding: 2vw;
-}
-.portrait{
   display: flex;
   flex-direction: row;
 }
@@ -16,13 +14,16 @@
   position: relative;
   border:2px solid var(--color-light);
   border-radius:  var(--radius);
-  width: 300px;
+  width: 200px;
   height: 250px;
 }
 
-.portrait div{
-  display: flex;
 
+
+.presentation div{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
 }
 .presentation figcaption {
   font-family: var(--font-title);
@@ -37,7 +38,6 @@
 }
 
 @media (max-width: 961px) {
-
   .presentation{
       display: flex;
       flex-direction: column;
