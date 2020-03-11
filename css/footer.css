@@ -75,7 +75,6 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-items: baseline;
 }
 
@@ -128,3 +127,4 @@ font-size: 12px;
         justify-content: center;
         align-items: center;
     }
+}
