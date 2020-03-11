@@ -3,10 +3,14 @@
 .presentation {
   display:flex;
   flex-direction: column;
+  justify-content: center;
   color:var(--color-light);
   padding: 2vw;
 }
-
+.portrait{
+  display: flex;
+  flex-direction: row;
+}
 .presentation figure{
   display: flex;
   position: relative;
@@ -16,6 +20,10 @@
   height: 250px;
 }
 
+.portrait div{
+  display: flex;
+
+}
 .presentation figcaption {
   font-family: var(--font-title);
   font-weight: bold;
@@ -25,6 +33,7 @@
   bottom: 0;
   text-align: center;
   width: 100%;
+  padding: 10px 0 10px;
 }
 
 @media (max-width: 961px) {
@@ -33,5 +42,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+  .portrait{
+      flex-direction: column;
   }
 }
