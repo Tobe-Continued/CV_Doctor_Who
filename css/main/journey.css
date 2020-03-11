@@ -22,7 +22,7 @@
   flex-wrap: wrap;
   width: 30%;
   padding: 20px;
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   font-weight: bold;
   margin-bottom: 40px;
 }

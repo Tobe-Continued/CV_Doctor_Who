@@ -28,7 +28,7 @@
 .review_title{
     display: flex;
     position:absolute;
-    font-family:var(--font-title);
+    font-family:var(--font-text);
     color: var(--color-main);
     width:200px;
     text-align:left;
@@ -65,7 +65,7 @@
 .review_date{
     display: flex;
     position:absolute;
-    font-family:var(--font-text);
+    font-family:var(--font-title);
     font-weight: bold;
     color: var(--color-main);
     font-size: 10pt;

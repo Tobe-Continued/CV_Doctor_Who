@@ -14,7 +14,7 @@
   justify-content: space-between;
   color: var(--color-main);
   width: calc((100% - var(--nb-skills) * var(--space-screen)*2)/var(--nb-skills));
-  font-family: var(--font-ti);
+  font-family: var(--font-text);
   margin-bottom: var(--space-screen);
   border-radius: var(--radius);
   background: var(--color-light)

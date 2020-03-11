@@ -19,6 +19,24 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Museo-700';
+    src:  url('font/Museo-700.ttf.woff') format('woff'),
+    url('font/Museo-700.ttf.svg#Museo-700') format('svg'),
+    url('font/Museo-700.ttf.eot'),
+    url('font/Museo-700.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CPMono_v07Black';
+    src:  url('font/CPMono_v07Black.ttf.woff') format('woff'),
+    url('font/CPMono_v07Black.ttf.svg#CPMono_v07Black') format('svg'),
+    url('font/CPMono_v07Black.ttf.eot'),
+    url('font/CPMono_v07Black.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
 
     --color-light:#DAE2F7;
@@ -35,8 +53,8 @@
     --color-orange:#E1AB49;
 
     --font-title_h1:'Doctor-Who-Regular', sans-serif;
-    --font-title:'Oswald', sans-serif;
-    --font-text:'Raleway', sans-serif;
+    --font-text:'CPMono_v07Black', sans-serif;
+    --font-title:'Museo-700', sans-serif;
 
     --radius: 8px;
 }

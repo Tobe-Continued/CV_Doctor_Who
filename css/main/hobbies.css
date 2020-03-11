@@ -25,8 +25,8 @@
 }
 
 .hobby figcaption {
-  font-family: var(--font-title);
-  font-weight: bold;
+  font-family: var(--font-text);
+  font-size: 12px;
   color: var(--color-main);
   background-color: var(--color-light);
   position: absolute;
