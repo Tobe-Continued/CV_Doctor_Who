@@ -2,6 +2,7 @@ body{
     max-width:1280px;
     height:100vh;
     margin: auto;
+    color: var(--color-light);
     background-color:var(--color-dark);
     object-fit: cover;
     object-position: initial;
