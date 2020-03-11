@@ -1,7 +1,8 @@
-body{
+html, body{
     max-width:1280px;
     height:100vh;
-    margin: auto;
+    margin:0 auto 0 auto;
+    padding:0;
     object-fit: cover;
     object-position: initial;
     background: url("../../img/wallpaper.jpg") fixed;
