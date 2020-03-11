@@ -78,14 +78,6 @@ font-size: 12px;
     align-items: baseline;
 }
 
-}
-
-.img {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-  }
-
 /* Links Decoration */
 
 .footer img {
