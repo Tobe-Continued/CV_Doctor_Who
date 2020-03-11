@@ -8,13 +8,22 @@
     padding: 2vw;
 }
 
-.image {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
+.presentation figure{
+    display: flex;
+    position: relative;
+    border:2px solid var(--color-light);
+    border-radius:  var(--radius);
+    width: 300px;
+    height: 250px;
+  }
 
-.presentation img {
-    height: 20em;
-    width: 25em;
-}
+  .presentation figcaption {
+    font-family: var(--font-text);
+    font-weight: bold;
+    color: var(--color-main);
+    background-color: var(--color-light);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
