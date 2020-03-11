@@ -17,7 +17,7 @@
 }
 
 .presentation figcaption {
-  font-family: var(--font-text);
+  font-family: var(--font-title);
   font-weight: bold;
   color: var(--color-main);
   background-color: var(--color-light);
