@@ -4,6 +4,7 @@
   display:flex;
   flex-direction: row;
   justify-content:center;
+  align-items: stretch;
   color:var(--color-light);
   padding: 2vw;
   display: flex;
@@ -17,6 +18,8 @@
   width: 200px;
   height: 250px;
 }
+
+
 
 
 

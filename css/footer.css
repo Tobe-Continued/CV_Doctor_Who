@@ -7,14 +7,14 @@ footer {
     align-items: baseline;
     border: 1px solid #E1AB49;
     border-top: none;
-    font-size: 10px;
+    font-size: 12px;
     border-bottom-left-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
     font-family:var(--font-text);
 }
 
 footer h5 {
-font-size: 12px;
+font-size: 14px;
 }
 /*Top Footer*/
 
@@ -64,20 +64,6 @@ font-size: 12px;
     align-items: center;
 }
 
-.corona4ever {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mention_too {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-}
-
 /* Links Decoration */
 
 .footer img {
@@ -122,6 +108,20 @@ font-size: 12px;
     }
 
     .mention {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .corona4ever {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mention_too {
         display: flex;
         flex-direction: column;
         justify-content: center;
