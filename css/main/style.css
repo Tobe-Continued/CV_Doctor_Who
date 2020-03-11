@@ -22,7 +22,6 @@ h1{
     font-weight:bold;
     font-size: 4em;
     text-align: center;
-    font-family: var(--font-title);
 }
 h2{
     background-color: var(--color-blue-light_opacity);
