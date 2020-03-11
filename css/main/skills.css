@@ -50,7 +50,8 @@ h2{
 }
 
 @media (max-width:1000px) {
-  .skills{
-    --nb-skills:1;
-    width: calc((100% - var(--nb-skills) * var(--space-screen)*2)/var(--nb-skills));
+  .skills {
+    --nb-skills: 1;
+    width: calc((100% - var(--nb-skills) * var(--space-screen) * 2) / var(--nb-skills));
   }
+}
