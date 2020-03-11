@@ -1,10 +1,17 @@
+/*Presentation*/
+
 .presentation {
     display:flex;
     flex-direction: column;
     background-color: var(--color-blue-dark);
+    padding: 2vw;
 }
 
-
+.image {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .presentation img {
     height: 20em;
