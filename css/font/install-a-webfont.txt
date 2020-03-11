@@ -4,11 +4,11 @@ Installing Webfonts
 2. Add this code to your website:
 
 @font-face {
-    font-family: 'Doctor-Who-Regular';
-    src:url('Doctor-Who-Regular.ttf.woff') format('woff'),
-        url('Doctor-Who-Regular.ttf.svg#Doctor-Who-Regular') format('svg'),
-        url('Doctor-Who-Regular.ttf.eot'),
-        url('Doctor-Who-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'CPMono_v07Black';
+    src:url('CPMono_v07Black.ttf.woff') format('woff'),
+        url('CPMono_v07Black.ttf.svg#CPMono_v07Black') format('svg'),
+        url('CPMono_v07Black.ttf.eot'),
+        url('CPMono_v07Black.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ Installing Webfonts
 Add the font name to your CSS styles. For example:
 
 h1 { 
-   font-family: 'Doctor-Who-Regular';
+   font-family: 'CPMono_v07Black';
 }  
 
 Troubleshooting Webfonts

@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: smooth;
     margin:0;
@@ -7,7 +8,7 @@ html{
 html, body{
     max-width:1280px;
     height:100vh;
-    margin:0;
+    margin:0 auto 0 auto !important;
     padding:0;
     object-fit: cover;
     object-position: initial;
@@ -24,16 +25,18 @@ main{
 h1{
     font-family:var(--font-title_h1);
     max-width:100vw;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: var(--color-light);
     text-transform: uppercase;
     font-size: 3em;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     text-decoration: underline;
 }
+
 h2{
     background-color: var(--color-blue-light_opacity);
+    margin:30px 0 30px 0;
     color: var(--color-light);
     font-family:var(--font-text);
     text-transform: uppercase;
@@ -41,5 +44,17 @@ h2{
     border-radius: var(--radius);
     box-shadow: 1px 1px 1px var(--color-blue-darker_opacity);
     width:100%;
-    margin: 0 0 0 0;
+}
+
+@media (max-width: 1280px) {
+    body{
+        width:100vw !important;
+        height:100vh !important;
+        margin:0 auto 0 auto !important;
+        padding:0 !important;
+        object-fit: cover;
+        object-position: initial;
+        background: url("../../img/wallpaper.jpg") fixed;
+        background-size: cover;
+    }
 }
