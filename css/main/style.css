@@ -4,7 +4,7 @@ body{
     margin: auto;
     object-fit: cover;
     object-position: initial;
-    background: url("../../img/wallpaper.jpg") repeat-y;
+    background: url("../../img/wallpaper.jpg") fixed;
     background-size: cover;
 }
 main{
