@@ -4,25 +4,24 @@ body{
     margin: auto;
     object-fit: cover;
     object-position: initial;
-    background: url("../../img/wallpaper.jpg") repeat-y;
+    background: url("../../img/wallpaper.jpg") fixed;
     background-size: cover;
 }
 main{
-    background-color: var(--color-blue-dark);
+    background-color: var(--color-blue-light_opacity);
     border-left: 1px solid var(--color-orange);
     border-right: 1px solid var(--color-orange);
     padding-top:25px;
 }
 h1{
     font-family:var(--font-title_h1);
-    background-color: var(--color-blue-dark);
     margin-bottom: 20px;
     color: var(--color-light);
     text-transform: uppercase;
-    font-weight:bold;
     font-size: 4em;
     text-align: center;
-    font-family: var(--font-title);
+    letter-spacing: 20px;
+    text-decoration: underline;
 }
 h2{
     background-color: var(--color-blue-light_opacity);
