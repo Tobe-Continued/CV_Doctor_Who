@@ -7,6 +7,7 @@
   color: var(--color-light);
   justify-content: space-around;
 
+
 }
 
 .experience{
@@ -29,8 +30,8 @@
 @media (max-width: 700px) {
   .experience{
     --nb-journey:1;
-    --space-screen: 30px;
-    width: calc((100% - var(--nb-Journey) * var(--space-screen)*2)/var(--nb-journey));
+    --space-screen: 0px;
+    min-width: calc((100% - var(--nb-Journey) * var(--space-screen)*2)/var(--nb-journey));
     margin: 30px;
   }
 }
