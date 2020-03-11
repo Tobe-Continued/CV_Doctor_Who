@@ -2,6 +2,7 @@ h2{
   color:var(--color-light);
   font-family: var(--font-title);
   display:flex;
+  margin-bottom:
 }
 
 .global{
@@ -22,8 +23,7 @@ h2{
   width: calc((100% - var(--nb-skills) * var(--space-screen)*2)/var(--nb-skills));
   font-family: var(--font-title);
   margin-bottom: var(--space-screen);
-  border: 3px solid var(--color-main);
-  border-radius: 15px;
+  border-radius: var(--radius);
   background: var(--color-light)
 
 }

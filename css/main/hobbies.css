@@ -1,0 +1,46 @@
+.hobby {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hobby figure{
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 250px;
+  filter: blur(3px);
+  border-radius: var(--radius);
+}
+figure:hover{
+  filter: blur(0);
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position :center;
+  text-align: center;
+  position: absolute;
+}
+
+.hobby figcaption {
+font-family: var(--font-text);
+font-weight: bold;
+color: var(--color-main);
+background-color: var(--color-light);
+position: absolute;
+bottom: 0;
+text-align: center;
+width: 100%;
+
+
+}
+
+@media (hover: none){
+  .hobby figure{
+    filter: none;
+  }
+}
