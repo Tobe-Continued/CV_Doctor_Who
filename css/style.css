@@ -19,10 +19,12 @@
     --color-main:#304A95;
     --color-blue-light:#627ED2;
     --color-blue-dark:#2A304A;
+    --color-blue-darker: #15152a;
 
     --color-orange:#E1AB49;
 
     --font-title:'Oswald', sans-serif;
     --font-text:'Raleway', sans-serif;
 
+    --radius: 8px;
 }

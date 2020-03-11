@@ -7,5 +7,7 @@ body{
     object-position: initial;
 }
 main{
-    background-color: var(--color-blue-dark)
+    background-color: var(--color-blue-dark);
+    border-left: 1px solid var(--color-orange);
+    border-right: 1px solid var(--color-orange);
 }
