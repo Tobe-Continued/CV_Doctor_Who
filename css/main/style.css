@@ -1,9 +1,28 @@
 body{
-    max-width:961px;
+    max-width:1280px;
     height:100vh;
     margin: auto;
     color: var(--color-light);
     background-color:var(--color-dark);
     object-fit: cover;
     object-position: initial;
+}
+main{
+    background-color: var(--color-blue-dark);
+    border-left: 1px solid var(--color-orange);
+    border-right: 1px solid var(--color-orange);
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 6em;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 20px;
 }
