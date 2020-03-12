@@ -57,5 +57,6 @@
     --font-title:'Museo-700', sans-serif;
 
     --radius: 8px;
+    --radius_btn: 15px 8px 80px 15px;
 
 }
