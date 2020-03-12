@@ -7,14 +7,14 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 43px;
     z-index: 1;
 }
 .nav-item{
     font-family:var(--font-title);
-    background-color: var(--color-blue-dark);
+    background-color: var(--color-blue-darker_opacity);
     border-bottom:none;
     border-top:1px solid var(--color-orange);
     border-left:1px solid var(--color-orange);
@@ -63,12 +63,63 @@
 .nav-item-burger {
     display: none;
 }
-@media screen and (max-width: 961px) {
+
+.nav-item-lang {
+    font-family: var(--font-title);
+    background-color: var(--color-blue-darker_opacity);
+    border-bottom:none;
+    border-top:1px solid var(--color-orange);
+    border-left:1px solid var(--color-orange);
+    border-right:1px solid var(--color-orange);
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 10px);
+    width:calc(100vh / 9);
+    list-style: none;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+    border-radius: var(--radius) var(--radius) 0 0;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+i.em.em-gb{
+    height: 100%;
+    padding:10px;
+    margin-bottom:40px;
+}
+
+.nav-item-lang:hover {
+    background-color: var(--color-blue-light);
+    border-bottom:none;
+    border-top:1px solid var(--color-orange);
+    border-left:1px solid var(--color-orange);
+    border-right:1px solid var(--color-orange);
+    box-shadow: 1px -1px var(--color-orange);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-item-lang:hover a {
+    color: var(--color-light);
+    text-shadow: 2px 2px 3px var(--color-orange);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-item-lang.active a {
+    color: var(--color-light);
+    z-index: 2;
+}
+@media screen and (max-width: 770px) {
     .navbar{
         display: flex;
         flex-direction: row;
         list-style: none;
-        justify-content:flex-start;
+        justify-content:space-around;
     }
     .nav-item{
         display: none;
@@ -83,6 +134,7 @@
         color: var(--color-light);
         display: flex;
         flex-direction: column;
+        width:calc(100vh / 9);
         height: calc(100% - 10px);
         list-style: none;
         align-items: center;

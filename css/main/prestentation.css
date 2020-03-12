@@ -2,28 +2,33 @@
 
 .presentation {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content:center;
   color:var(--color-light);
   padding: 2vw;
-}
-
-.rowPresentation {
   display: flex;
   flex-direction: row;
 }
-
 .presentation figure{
   display: flex;
   position: absolute;
   border:2px solid var(--color-light);
   border-radius:  var(--radius);
-  width: 300px;
+  width: 200px;
   height: 250px;
   
 }
 
-.presentation figcaption {
+
+
+.presentation div{
+  display: flex;
   font-family: var(--font-text);
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.presentation figcaption {
+  font-family: var(--font-title);
   font-weight: bold;
   color: var(--color-main);
   background-color: var(--color-light);
@@ -31,9 +36,16 @@
   bottom: 0;
   text-align: center;
   width: 100%;
+  padding: 10px 0 10px;
 }
 
-p .description {
-  width: 200px;
-  align-self: flex-end;
+@media (max-width: 961px) {
+  .presentation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .portrait{
+      flex-direction: column;
+  }
 }

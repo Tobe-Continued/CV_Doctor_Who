@@ -9,6 +9,8 @@ header{
     position: absolute;
     top:20%;
     filter: invert(1);
+    width: 100%;
+    opacity: 0.7;
 }
 .banniere{
     height:300px;

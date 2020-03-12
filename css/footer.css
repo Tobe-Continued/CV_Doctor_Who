@@ -1,4 +1,5 @@
 footer {
+    background-color: var(--color-blue-darker_opacity);
     margin-top: auto;
     color:var(--color-light);
     display: flex;
@@ -74,7 +75,6 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-items: baseline;
 }
 
@@ -127,3 +127,4 @@ font-size: 12px;
         justify-content: center;
         align-items: center;
     }
+}
