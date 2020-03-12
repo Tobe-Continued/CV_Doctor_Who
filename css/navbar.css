@@ -147,7 +147,9 @@ i.em.em-gb{
         height: 100vh;
         z-index: 3;
     }
-
+    .nav-link{
+        width: 33px;
+    }
     .navbar{
         display: flex;
         flex-direction: row;
@@ -191,6 +193,7 @@ i.em.em-gb{
         background-color: var(--color-light);
         border-radius: var(--radius);
         margin: 6px 0;
+    
     }
     
     .nav-item{
