@@ -27,7 +27,7 @@ h1{
     margin: 80px auto 80px auto;
     color: var(--color-light);
     text-transform: uppercase;
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: center;
     letter-spacing: calc(100vw / 110);
     text-decoration: underline;
@@ -183,4 +183,9 @@ h2{
         background: url("../../img/wallpaper.jpg") fixed;
         background-size: cover;
     }
+}
+select, option{
+    background: var(--color-blue-light_opacity);
+    border-radius: var(--radius);
+    outline-width: 0;
 }
