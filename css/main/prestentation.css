@@ -15,8 +15,8 @@
   position: relative;
   border:2px solid var(--color-light);
   border-radius:  var(--radius);
-  width: 500px;
-  height: 540px;
+  width: 40vw;
+  height: 60vh;
 }
 
 
@@ -47,4 +47,13 @@
   .portrait{
       flex-direction: column;
   }
-}
+
+  .presentation figure{
+    display: flex;
+    position: relative;
+    border:2px solid var(--color-light);
+    border-radius:  var(--radius);
+    width: 70vw;
+    height: 70vh;
+  }
+} 
