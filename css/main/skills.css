@@ -16,9 +16,8 @@
   width: calc((100% - var(--nb-skills) * var(--space-screen)*2)/var(--nb-skills));
   font-family: var(--font-text);
   margin-bottom: var(--space-screen);
-  border-radius: var(--radius);
-  background: var(--color-light)
-
+  border-radius: var(--radius_btn);
+  background-color: var(--color-light);
 }
 
 .titreskills{
@@ -34,12 +33,15 @@
   flex-wrap: nowrap;
   align-items: center;
   margin-right: 30px;
+
 }
 
 .imgtardis{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: none;
+  margin-right: 10px;
+  
 }
 .checked{
   display: block;
