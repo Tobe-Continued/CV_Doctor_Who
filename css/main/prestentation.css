@@ -11,12 +11,11 @@
 }
 .presentation figure{
   display: flex;
-  position: absolute;
+  position: relative;
   border:2px solid var(--color-light);
   border-radius:  var(--radius);
   width: 200px;
   height: 250px;
-  
 }
 
 
