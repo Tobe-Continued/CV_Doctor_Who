@@ -33,7 +33,7 @@ a.nav-link{
 .nav-item{
     font-family:var(--font-title);
     background-color: var(--color-blue-darker_opacity);
-    border-bottom:none
+    border-bottom:none;
     border-top:1px solid var(--color-orange);
     padding: 10px 20px 0 20px;
     border-left:1px solid var(--color-orange);
@@ -81,7 +81,26 @@ a.nav-link{
 .nav-item-burger {
     display: none;
 }
-
+.nav-item-date{
+    font-family: var(--font-title);
+    background-color: var(--color-blue-darker_opacity);
+    border-bottom:none;
+    border-top:1px solid var(--color-orange);
+    border-left:1px solid var(--color-orange);
+    border-right:1px solid var(--color-orange);
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    width:40px;
+    list-style: none;
+    align-items: center;
+    padding: 0px 20px 10px 20px;
+    margin-top:0px;
+    border-radius: var(--radius) var(--radius) 0 0;
+    justify-content: flex-end;
+    z-index: 2;
+}
 .nav-item-lang {
     font-family: var(--font-title);
     background-color: var(--color-blue-darker_opacity);

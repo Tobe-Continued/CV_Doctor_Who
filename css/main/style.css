@@ -9,7 +9,7 @@ html, body{
     max-width:1280px;
     height:100vh;
     margin:0 auto 0 auto !important;
-    padding:10 0 10 0;
+    padding:10px 0 10px 0;
     object-fit: cover;
     object-position: initial;
     background: url("../../img/wallpaper.jpg") fixed;
