@@ -34,7 +34,7 @@ h1{
 }
 
 h2{
-    background-color: var(--color-blue-light_opacity);
+    background-color: var(--color-blue-darker_opacity);
     margin:30px 5% 30px 5%;
     color: var(--color-light);
     font-family:var(--font-text);
