@@ -63,19 +63,6 @@
 .nav-item-burger {
     display: none;
 }
-.nav-item-space {
-    width:calc((100vh / 9) * 3);
-    display: flex;
-    flex-direction: column;
-    height: calc(100% - 10px);
-    list-style: none;
-    align-items: center;
-    padding: 10px 20px 0 20px;
-    border-radius: var(--radius) var(--radius) 0 0;
-    margin-right:10px;
-    justify-content: flex-end;
-    z-index: 2;
-}
 
 .nav-item-lang {
     font-family: var(--font-title);
@@ -127,7 +114,7 @@ i.em.em-gb{
     color: var(--color-light);
     z-index: 2;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
     .navbar{
         display: flex;
         flex-direction: row;
