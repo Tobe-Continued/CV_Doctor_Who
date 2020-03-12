@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
     justify-content: space-around;
     align-content: center;
     align-items: center;
@@ -14,25 +16,26 @@
 .review img{
     display: flex;
     position: absolute;
-    top:18px;
-    left: 0;
+    top:14px;
+    left: 0px;
     z-index: 2;
     border:2px solid var(--color-light);
     object-fit: cover;
     object-position: top;
     border-radius: var(--radius);
     width:65px;
-    height:70%;
+    height:65px;
 
 }
 .review_title{
     display: flex;
     position:absolute;
-    font-family:var(--font-text);
-    color: var(--color-main);
+    text-transform: uppercase;
+    font-family:var(--font-title);
+    color: var(--color-light);
     width:100px;
     text-align:left;
-    top:0;
+    top:20px;
     left:75px;
     z-index: 2;
 
@@ -51,14 +54,15 @@
 }
 .review_text{
     display: flex;
-    max-width: calc(100vh / 3);
-    font-family:var(--font-title);
-    color: var(--color-main);
+    max-width: calc(100vh / 4);
+    font-family:var(--font-text);
+    font-size: 14px;
+    color: var(--color-light);
     min-width: calc(100vh / 3);
-    height:50px;
-    background-color: var(--color-light);
-    padding:30px 0px 30px 75px;
-    border-radius: var(--radius_btn);
+    height:100px;
+    border:2px solid var(--color-light);
+    padding:70px 10px 40px 15px;
+    border-radius: var(--radius);
     z-index: 1;
 
 }
@@ -67,12 +71,12 @@
     position:absolute;
     font-family:var(--font-title);
     font-weight: bold;
-    color: var(--color-main);
+    color: var(--color-light);
     font-size: 10pt;
     text-align:left;
     bottom:5px;
-    right:-115px;
-    margin-right:126px;
+    right:-65px;
+    margin-right:76px;
     padding-right:0;
     z-index: 2;
 

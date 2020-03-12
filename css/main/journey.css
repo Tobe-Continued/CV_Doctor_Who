@@ -18,7 +18,7 @@
   --nb-journey: 2;
   width:calc(100%/var(--nb-journey));
   border:2px solid var(--color-light);
-  border-radius:  var(--radius);
+  border-radius: var(--radius);
   flex-wrap: wrap;
   width: 30%;
   padding: 20px;

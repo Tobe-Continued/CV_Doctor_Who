@@ -1,15 +1,16 @@
-footer {
+.footer {
     background-color: var(--color-blue-darker_opacity);
     margin-top: auto;
     color:var(--color-light);
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    border: 1px solid #E1AB49;
+    border-bottom: 1px solid #E1AB49;
     border-top: none;
     font-size: 12px;
     border-bottom-left-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
+    width:100%;
     font-family:var(--font-text);
 }
 
