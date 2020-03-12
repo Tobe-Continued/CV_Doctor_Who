@@ -184,8 +184,3 @@ h2{
         background-size: cover;
     }
 }
-select, option{
-    background: var(--color-blue-light_opacity);
-    border-radius: var(--radius);
-    outline-width: 0;
-}
