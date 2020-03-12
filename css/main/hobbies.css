@@ -1,6 +1,8 @@
 .hobby {
   display: flex;
   flex-direction: row;
+  width:98%;
+  margin:auto;
   flex-wrap: wrap;
   justify-content: space-around;
 }
