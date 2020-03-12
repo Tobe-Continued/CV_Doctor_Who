@@ -1,29 +1,49 @@
 /*Presentation*/
 
 .presentation {
-    display:flex;
-    flex-direction: column;
-    background-color: var(--color-blue-dark);
-    color:var(--color-light);
-    padding: 2vw;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: stretch;
+  color:var(--color-light);
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+.presentation figure{
+  display: flex;
+  position: relative;
+  border:2px solid var(--color-light);
+  border-radius:  var(--radius);
+  width: 200px;
+  height: 250px;
 }
 
-.presentation figure{
-    display: flex;
-    position: relative;
-    border:2px solid var(--color-light);
-    border-radius:  var(--radius);
-    width: 300px;
-    height: 250px;
-  }
+.presentation div{
+  display: flex;
+  font-family: var(--font-text);
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.presentation figcaption {
+  font-family: var(--font-title);
+  font-weight: bold;
+  color: var(--color-main);
+  background-color: var(--color-light);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0 10px;
+}
 
-  .presentation figcaption {
-    font-family: var(--font-text);
-    font-weight: bold;
-    color: var(--color-main);
-    background-color: var(--color-light);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
+@media (max-width: 961px) {
+  .presentation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+  .portrait{
+      flex-direction: column;
+  }
+}
