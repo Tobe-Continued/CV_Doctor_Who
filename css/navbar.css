@@ -224,7 +224,6 @@ a.nav-link{
         color: var(--color-light);
         display: flex;
         flex-direction: column;
-        width:calc(100vh / 9);
         height: calc(100% - 10px);
         list-style: none;
         align-items: center;
