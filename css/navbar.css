@@ -28,7 +28,7 @@
 .nav-item{
     font-family:var(--font-title);
     background-color: var(--color-blue-darker_opacity);
-    border-bottom:none;
+    border-bottom:none
     border-top:1px solid var(--color-orange);
     border-left:1px solid var(--color-orange);
     border-right:1px solid var(--color-orange);
@@ -132,29 +132,39 @@ i.em.em-gb{
     #burger{
         display:none;
     }
+    #burger:target main{
+        display: none;
+
+    }
     #burger:target{
         display:flex;
         position:fixed;
         background-color: var(--color-blue-darker);
+        color: var(--color-light);
         top:0;
-        left:0;
-        padding:20px;
+        left:0; 
         width: 100vw;
         height: 100vh;
         z-index: 3;
     }
+
     .navbar{
         display: flex;
         flex-direction: row;
         list-style: none;
-        justify-content:space-around;
+        justify-content:space-between;
     }
-    .nav-item{
-        display: none;
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: url("../img/tardis.jpg") fixed;
+        background-size: cover;
+        background-position: center;
+       
     }
     .nav-item-burger {
         font-family: var(--font-title);
-        background-color: var(--color-blue-dark);
         border-bottom:none;
         border-top:1px solid var(--color-orange);
         border-left:1px solid var(--color-orange);
@@ -169,7 +179,9 @@ i.em.em-gb{
         padding: 10px 20px 0 20px;
         border-radius: var(--radius) var(--radius) 0 0;
         justify-content: flex-end;
-        z-index: 2;
+        z-index: 3;
+        
+
     }
 
     .nav-item-burger div {
@@ -180,27 +192,22 @@ i.em.em-gb{
         border-radius: var(--radius);
         margin: 6px 0;
     }
-
-    .nav-item-burger:hover {
-        background-color: var(--color-blue-light);
-        border-bottom:none;
-        border-top:1px solid var(--color-orange);
-        border-left:1px solid var(--color-orange);
-        border-right:1px solid var(--color-orange);
-        box-shadow: 1px -1px var(--color-orange);
-        margin-bottom: 10px;
-        padding-bottom: 10px;
-        cursor: pointer;
+    
+    .nav-item{
+        border: 1px solid var(--color-orange);
+        display: flex;
+        width: 70vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        justify-self: flex-start;
+        border-radius: var(--radius);
         z-index: 2;
+        padding: 0;
+        height: 40px;
+        margin: 1%;
     }
-
-    .nav-item-burger:hover a {
-        color: var(--color-light);
-        text-shadow: 2px 2px 3px var(--color-orange);
-        cursor: pointer;
-        z-index: 2;
-    }
-
     .nav-item-burger.active a {
         color: var(--color-light);
         z-index: 2;
