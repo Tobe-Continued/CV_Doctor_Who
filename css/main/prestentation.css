@@ -7,8 +7,6 @@
   align-items: center;
   color:var(--color-light);
   padding: 2vw;
-  display: flex;
-  flex-direction: row;
 }
 .presentation figure{
   display: flex;

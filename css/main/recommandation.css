@@ -17,7 +17,7 @@
     display: flex;
     position: absolute;
     top:14px;
-    left: 0px;
+    left: 0;
     z-index: 2;
     border:2px solid var(--color-light);
     object-fit: cover;

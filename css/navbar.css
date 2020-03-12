@@ -1,7 +1,7 @@
 .navbar{
     text-shadow: 2px 2px 3px var(--color-dark);
     border-bottom:1px solid var(--color-orange);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     margin-top: -44px;
     width: 100%;
     display: flex;
@@ -19,13 +19,13 @@ a.nav-link{
 }
 .menu_mobile{
     text-shadow: 2px 2px 3px var(--color-dark);
-    border-bottom:1px solid var(--color-orange);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     width: 100%;
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-right:50px;
     align-items: center;
     height: 43px;
     z-index: 1;
@@ -95,8 +95,8 @@ a.nav-link{
     width:40px;
     list-style: none;
     align-items: center;
-    padding: 0px 20px 10px 20px;
-    margin-top:0px;
+    padding: 0 20px 10px 20px;
+    margin-top:0;
     border-radius: var(--radius) var(--radius) 0 0;
     justify-content: flex-end;
     z-index: 2;
@@ -152,7 +152,7 @@ a.nav-link{
 .nav-lang{
     text-shadow: 2px 2px 3px var(--color-dark);
     border-bottom:1px solid var(--color-orange);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     margin-top: -44px;
     width: 100%;
     display: flex;
@@ -197,6 +197,65 @@ a.nav-link{
     background-color: var(--color-blue-light_opacity);
     border:1px solid var(--color-orange);
 }
+.custom-select{
+    outline-width: 0;
+    position: relative;
+    font-family: var(--font-title);
+    background-color: var(--color-blue-light_opacity)
+}
+.custom-select select {
+    display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-item-date label{
+    margin:0;
+    padding:0;
+}
 @media screen and (max-width: 770px) {
     #burger{
         display:none;
@@ -229,10 +288,9 @@ a.nav-link{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background: url("../img/tardis.jpg") fixed;
         background-size: cover;
-        background-position: center;
-       
+        background: url("../img/tardis.jpg") fixed center;
+
     }
     .nav-item-burger {
         font-family: var(--font-title);
@@ -263,7 +321,23 @@ a.nav-link{
         margin: 6px 0;
     
     }
-    
+
+    .nav-item{
+        border: 1px solid var(--color-orange);
+        display: flex;
+        width: 70vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        justify-self: flex-start;
+        border-radius: var(--radius);
+        z-index: 2;
+        padding: 0;
+        height: 40px;
+        margin: 1%;
+    }
+
     .nav-item{
         border: 1px solid var(--color-orange);
         display: flex;

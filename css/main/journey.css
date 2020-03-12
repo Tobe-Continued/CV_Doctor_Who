@@ -15,12 +15,11 @@
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  --nb-journey: 2;
-  width:calc(100%/var(--nb-journey));
+  --nb-journey:2;
+  width: calc(100% / var(--nb-journey));
   border:2px solid var(--color-light);
   border-radius: var(--radius);
   flex-wrap: wrap;
-  width: 30%;
   padding: 20px;
   font-family: var(--font-text);
   font-weight: bold;
@@ -30,7 +29,7 @@
 
 @media (max-width: 700px) {
   .experience{
-    --nb-journey:1;
+    --nb-Journey:1;
     --space-screen: 0px;
     min-width: calc((100% - var(--nb-Journey) * var(--space-screen)*2)/var(--nb-journey));
     margin: 30px;
