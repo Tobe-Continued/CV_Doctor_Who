@@ -88,7 +88,7 @@ h2{
 }
 .up_img_dalek{
     -webkit-transform: scaleX(-1);
-    background: url(../../img/dalek.png) no-repeat;
+    background: url(../../img/dalek_title.png) no-repeat;
     background-size: cover;
     opacity:0.9;
     transform: scaleX(-1);
