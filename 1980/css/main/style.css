@@ -170,8 +170,6 @@ h2{
     height: 4504px;
     opacity:0.8;
     background-size: auto;
-    filter: blur(3px);
-    -webkit-filter: blur(1px);
 
 }
 @media (max-width: 1280px) {
