@@ -231,4 +231,12 @@ input, textarea {
         bottom: -25px;
         left: 0px;
     }
+    .sendButton {
+        bottom:-20px;
+    }
+    .sendButton:hover{
+        bottom:-15px;
+        height: 39px;
+        padding-top: 10;
+    }
 }

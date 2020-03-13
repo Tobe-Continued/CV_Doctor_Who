@@ -163,11 +163,11 @@ h2{
     border-bottom-left-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
 }
-.img_footer{
+div.img_footer{
     width: 100%;
     display: flex;
     background: url(../../img/footer.png) no-repeat center;
-    height: 4504px;
+    height: 450px;
     opacity:0.8;
     background-size: auto;
     filter: blur(3px);
@@ -184,5 +184,10 @@ h2{
         object-position: initial;
         background: url("../../img/wallpaper.jpg") fixed;
         background-size: cover;
+    }
+
+    div.img_footer{
+        display: none;
+
     }
 }
