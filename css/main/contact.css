@@ -1,3 +1,32 @@
+.captcha{
+    width: 200px;
+    height:60px;
+    position: absolute;
+    background-color: var(--color-light);
+    border: 2px solid #D3D3D3;
+    bottom: -10px;
+    left: 30px;
+}
+#no_dalek{
+    position: absolute;
+    margin:0 10px 0 10px;
+    top:50%;
+}
+.no_dalek_txt{
+    position: absolute;
+    margin-left:10px;
+    top:50%;
+}
+.captcha img{
+    position: absolute;
+    right:0px;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
 #contact {
     position: relative;
     width: 100%;
@@ -134,7 +163,11 @@ input, textarea {
     height: 42px;
     display: flex;
     right: 0;
-
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
     background: rgba(48, 74, 149, 0.2);
     border: 2px solid rgba(42, 48, 74, 0.7);
     box-sizing: border-box;
@@ -145,6 +178,11 @@ input, textarea {
     font-size: 23px;
 }
 
+.sendButton:hover{
+    bottom:0px;
+    height: 39px;
+    padding-bottom: 5px;
+}
 
 @media screen and (max-width: 550px) {
     .formOut {
