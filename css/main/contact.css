@@ -1,0 +1,242 @@
+.captcha{
+    width: 200px;
+    height:60px;
+    position: absolute;
+    background-color: var(--color-light);
+    border: 2px solid #D3D3D3;
+    bottom: -10px;
+    left: 30px;
+}
+#no_dalek{
+    position: absolute;
+    margin:0 10px 0 10px;
+    top:50%;
+}
+.no_dalek_txt{
+    position: absolute;
+    margin-left:10px;
+    top:50%;
+}
+.captcha img{
+    position: absolute;
+    right:0px;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+#contact {
+    position: relative;
+    width: 100%;
+    height: 715px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galaxy {
+    position: absolute;
+    width: 961px;
+    height: 715px;
+}
+
+.formOut {
+    position: relative;
+    max-width: 570px;
+    width: calc((100vw / 9) * 7);
+    height: 650px;
+
+    background: rgba(4, 7, 13, 0.699);
+    border: 1px solid #E1AB49;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.policeBox {
+    position: relative;
+    width: 90%;
+    height: 70px;
+    border: 2px solid rgba(218, 226, 247, 0.6);
+    border-radius: 10px;
+}
+
+.ginput {
+    margin-top: 5px;
+}
+
+.formIn {
+    position: relative;
+    width: 90%;
+    height: 510px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rectangle {
+    background: rgba(48, 74, 149, 0.2);
+    border: 2px solid rgba(42, 48, 74, 0.7);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    font-family: var(--font-title);
+    font-size: 15px;
+}
+
+label {
+    font-family: var(--font-title);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    color: var(--color-dark);
+}
+
+.fullWidth {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+}
+
+.demiWidth {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+    width: 90%;
+    position: relative;
+}
+
+#day, #hour {
+    width: 45%;
+}
+
+#day {
+    flex: 1;
+    padding-right: 10px;
+}
+
+#message {
+    height: 245px;
+}
+
+#fmessage {
+    height: 90%;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea {
+  padding-left: 10px;
+}
+
+.wrapButton {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 42px;
+    align-content: flex-end;
+}
+
+.sendButton {
+    position: absolute;
+    width: 107px;
+    height: 42px;
+    display: flex;
+    right: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    background: rgba(48, 74, 149, 0.2);
+    border: 2px solid rgba(42, 48, 74, 0.7);
+    box-sizing: border-box;
+    border-radius: 15px 8px 40px 15px;
+    justify-content: center;
+    justify-items: center;
+    font-family: var(--font-title);
+    font-size: 23px;
+}
+
+.sendButton:hover{
+    bottom:0px;
+    height: 39px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .formOut {
+        width:90%;
+    }
+    .demiWidth {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #day, #hour {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #message {
+        height: 158px;
+    }
+    .captcha{
+         width: 130px;
+         height:50px;
+         position: absolute;
+         background-color: var(--color-light);
+         border: 2px solid #D3D3D3;
+         bottom: -15px;
+         left: 0px;
+     }
+    .sendButton {
+        bottom:-15px;
+    }
+}
+
+@media screen and (max-width: 363px) {
+    .formOut {
+        width:90%;
+    }
+    #message {
+        height: 150px;
+    }
+    .captcha{
+        width: 130px;
+        height:50px;
+        position: absolute;
+        background-color: var(--color-light);
+        border: 2px solid #D3D3D3;
+        bottom: -25px;
+        left: 0px;
+    }
+    .sendButton {
+        bottom:-20px;
+    }
+    .sendButton:hover{
+        bottom:-15px;
+        height: 39px;
+        padding-top: 10;
+    }
+}

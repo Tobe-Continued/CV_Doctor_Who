@@ -1,8 +1,193 @@
-body{
-    max-width:961px;
+
+html{
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    max-width:1280px;
     height:100vh;
-    margin: auto;
-    background-color:var(--color-dark);
+    margin:0 auto 0 auto !important;
+    padding:10px 0 10px 0;
     object-fit: cover;
     object-position: initial;
+    background: url("../../img/wallpaper.jpg") fixed;
+    background-size: cover;
+}
+main{
+    background: linear-gradient(180deg, rgba(98, 126, 210, 0.9) 0%, rgba(98, 126, 210, 0.5) 13.61%);
+    border-left: 1px solid var(--color-orange);
+    border-right: 1px solid var(--color-orange);
+    padding-top:25px;
+}
+h1{
+    font-family:var(--font-title_h1);
+    max-width:90%;
+    margin: 80px auto 80px auto;
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-size: 6vw;
+    text-align: center;
+    letter-spacing: calc(100vw / 110);
+    text-decoration: underline;
+}
+
+h2{
+    background-color: var(--color-blue-darker_opacity);
+    margin:0 5% 30px 5%;
+    color: var(--color-light);
+    font-family:var(--font-text);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: 1px 1px 1px var(--color-blue-darker_opacity);
+    width:90%;
+}
+.image_title_end{
+    height:150px;
+    width:100%;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    margin: 0 0 -20px 0;
+    opacity:0.7;
+    padding: 0;
+}
+.image_title_start{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:row;
+    margin: 0 0 -20px 0;
+    opacity:0.7;
+    padding: 0;
+}
+.image_title_center{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    margin: 0 0 -20px 0;
+    opacity:0.7;
+    padding: 0;
+}
+.image_title_footer{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    margin: 0 0 0 0;
+    padding-bottom: 100px;
+    opacity:0.7;
+}
+.up_img_dalek{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/dalek_title.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:150px;
+    margin-right: 50px;
+}
+.up_img_cyber{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/cybermen.svg) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:130px;
+}
+.up_img_tardis{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/tardis_black.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:130px;
+}
+.up_img_sonic{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/sonic-screwdriver.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:130px;
+    margin-left: 40px;
+}
+.up_img_phone{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/phone.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:130px;
+    margin-right: 40px;
+}
+.up_img_panet{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/planete.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:165px;
+    height:130px;
+}
+.image_title_footer{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    height:414px;
+    width:calc(100% - 2px);
+    background-color: var(--color-blue-light_opacity);
+    border-left: 1px solid var(--color-orange);
+    border-right: 1px solid var(--color-orange);
+    opacity:1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+div.img_footer{
+    width: 100%;
+    display: flex;
+    background: url(../../img/footer.png) no-repeat center;
+    height: 450px;
+    opacity:0.8;
+    background-size: auto;
+    filter: blur(3px);
+    -webkit-filter: blur(1px);
+
+}
+@media (max-width: 1280px) {
+    body{
+        width:99vw !important;
+        height:100vh !important;
+        margin:0 auto 0 auto !important;
+        padding:0 !important;
+        object-fit: cover;
+        object-position: initial;
+        background: url("../../img/wallpaper.jpg") fixed;
+        background-size: cover;
+    }
+
+    div.img_footer{
+        display: none;
+
+    }
 }

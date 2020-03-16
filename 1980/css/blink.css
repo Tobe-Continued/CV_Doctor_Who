@@ -1,0 +1,42 @@
+.blinking{
+    animation:blinkingText 0.5s infinite;
+}
+
+body{
+    background-image: url(../img/wallpaper.jpg);
+    animation:blinking_background 0.5s infinite;
+    opacity: 0.5;
+}
+
+.up_img_dalek{
+    animation: blink normal 2s infinite ease-in-out; 
+}
+
+.up_img_dalek{
+    -webkit-transform: scaleX(-1);
+    background: url(../../img/80_dalek_title.png) no-repeat;
+    background-size: cover;
+    opacity:0.9;
+    transform: scaleX(-1);
+    display: flex;
+    width:150px;
+    height:150px;
+    margin-right: 50px;
+}
+
+@keyframes blinkingText{
+    0%{     color: #3ed111;   }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: #cb11d1;   }
+    100%{   color: #cb11d1;   }
+}
+
+@keyframes blinking_background {
+    0%{     color: transparent;    }
+    49%{    color: transparent;   }
+    50%{    color: transparent; }
+    50%{     opacity: 3;  }
+    99%{    color:transparent;  }
+    100%{    color:transparent;  }
+}

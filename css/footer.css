@@ -1,0 +1,131 @@
+.footer {
+    background-color: var(--color-blue-darker_opacity);
+    margin-top: auto;
+    color:var(--color-light);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-bottom: 1px solid #E1AB49;
+    border-top: none;
+    font-size: 12px;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    width:100%;
+    font-family:var(--font-text);
+}
+
+footer h5 {
+font-size: 14px;
+}
+/*Top Footer*/
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.more_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.external_links {
+    display:flex;
+    flex-direction:row;
+}
+
+.social_links {
+    display:flex;
+    flex-direction:row;
+}
+
+.social_links a {
+    margin: 0 10px 0 10px;
+}
+
+/*Bottom Footer*/
+
+.mention {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Links Decoration */
+
+.footer img {
+    height: 15px;
+    width: 15px;
+}
+
+.footer link {
+    color:var(--color-light);
+    text-decoration: none;
+}
+
+.footer :visited {
+    color:var(--color-light);
+    text-decoration: none;
+}
+
+.footer a {
+        color:var(--color-light);
+        text-decoration: none;
+}
+
+.footer :hover {
+    color:var(--color-light);
+}
+
+
+
+@media (max-width: 961px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mention {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .corona4ever {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mention_too {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
